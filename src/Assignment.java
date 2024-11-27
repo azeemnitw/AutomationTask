@@ -2,6 +2,23 @@
  * I like solving problems using data structures and algorithms and learning new languages(python,typescript etc) and have command over database query language SQL.
  * Inclined towards mathematical aptitudes and reasoning skills. Please connect over linkedin https://www.linkedin.com/in/azeem-mohd-127869ba/
  */
+/*
+ * steps to recreate
+1. Install eclipse or any IDE.
+2. Create new project "Fitpeo".
+3. Right click the project and convert the project into Maven project.
+4. Pom.xml is created
+5. Open pom.xml and make <dependencies> tag open and close it.
+   <dependencies></dependencies>
+6. put this dependency in dependencies tag
+   <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.25.0</version>
+   </dependency>
+7. All selenium dependencies will be included.
+8. Create a java class named Assignment and put my code from same location and run.
+ */
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
